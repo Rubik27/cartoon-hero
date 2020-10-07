@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+h1{
+font-size: 30px;
+color:salmon;
+}
+h2{
+font-size: 30px;
+color:red;
+}
+.big{
+font-size: 60px;
+color:peru;
+}
+.uppercase{
+text-transform: uppercase;
+}
+.big.uppercase{
+color: #000;
+}
