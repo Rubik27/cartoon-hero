@@ -40,11 +40,35 @@
     margin-right: 0.25em;
     transition: all 0.15s ease 0s;
 }
-.page-logo-name a{
+.logo img{
     height: 100%;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
+}
+
+.navegation-links{
+    display: flex;
+    flex-direction: row;
+}
+.link{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 52px;
+    white-space: nowrap;
+    padding: 0px 16px;
+    color: rgb(121, 134, 163);
+}
+.link-text{
+    box-sizing: border-box;
+    padding-top: 2px;
+    margin: 0px;
+    font-size: 0.875rem;
+    font-weight: normal;
+    font-style: normal;
 }
 
 div {
