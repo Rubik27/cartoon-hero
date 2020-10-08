@@ -1,21 +1,78 @@
-body{
-    background-color: aqua;
+.app {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
 }
-h1{
-font-size: 30px;
-color:salmon;
+.scroll {
+    overflow: hidden auto;
 }
-h2{
-font-size: 30px;
-color:red;
+.topbar{
+    z-index: 11;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(14, 23, 38);
+    position: sticky;
+    top: 0px;
+    padding: 0px 1rem;
 }
-.big{
-font-size: 60px;
-color:peru;
+.topbar-content{
+    display: flex;
+    height: 52px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
 }
-.uppercase{
-text-transform: uppercase;
+
+.topbar-left{
+    display: flex;
+    height: 100%;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-basis: 0px;
 }
-.big.uppercase{
-color: #000;
+.page-logo-name{
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    transition: all 0.15s ease 0s;
+}
+.page-logo-name a{
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+div {
+    display: block;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    cursor: default;
+}
+
+html {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(19, 28, 46);
+    font-family: "Maison Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    color: rgb(229, 235, 239);
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
